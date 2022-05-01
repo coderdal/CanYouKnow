@@ -1,0 +1,62 @@
+.main {
+    width: 100%;
+    height: 100vh;
+  }
+  
+  .startGame {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+    padding: 30px;
+  }
+  
+  .welcome {
+    font-size: 2em;
+  }
+  
+  .info {
+    font-style: italic;
+    color: var(--light-text-color);
+  }
+  
+  .developer {
+    margin: 20px;
+  }
+  
+  .developerDetails {
+    font-weight: 400;
+    font-size: 1.1em;
+    color: var(--light-text-color);
+  }
+  
+  .boldText {
+    font-weight: 500;
+  }
+  
+  .developerDetails a {
+    text-decoration: none;
+    color: var(--text-color);
+  }
+  
+  .social {
+    margin: 5px;
+  }
+  
+  
+  .theme{
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: absolute;
+    padding: 10px;
+  }
+  
+  .theme svg{
+    width: 30px;
+    height: 30px;
+  }
